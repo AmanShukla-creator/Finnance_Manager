@@ -39,11 +39,15 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
+---
+
 ## 4. Run the application
 
 ```bash
 python main.py
 ```
+
+---
 
 ## 5. Application Menu
 
@@ -56,6 +60,8 @@ python main.py
 5. Search Expense
 6. Exit
 ```
+
+---
 
 ## 6. Features and Usage
 
@@ -113,7 +119,11 @@ Birthday: ₹100000
 
 ### 6.6 EXIT
 
+---
+
 ## 7. Error Handling
+
+---
 
 ## 8. Conclusion
 
@@ -136,6 +146,4 @@ Practical expense management features
 
 ```
 
-```
-
-```
+---
