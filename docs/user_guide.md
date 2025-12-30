@@ -22,24 +22,24 @@ This project is designed to demonstrate real-world Python project structure, fil
 
 ### 3.1 Clone the Repository
 
-````bash
+`````bash
 git clone https://github.com/AmanShukla-creator/Finnance_Manager.git
 cd Finnance_Manager
 
 ### 3.2 Create virtual Environment
-```bash
+````bash
 python -m venv venv
 
 ### 3.3 Acitvate Windows
-```bash
+````bash
 venv\Scripts\activate
 
 ## 4. Run the application
-```bash
+````bash
 python main.py
 
 ## 5. Application Menu
-```bash
+````bash
 --- Finance Manager ---
 1. Add Expense
 2. View Expenses
@@ -95,7 +95,7 @@ Matching expenses are displayed instantly.
 ### 6.5 Category Report
 
 Shows total expenses grouped by category.
-```bash
+````bash
 Food: ₹2500
 Travel: ₹1200
 Birthday: ₹100000
@@ -113,7 +113,7 @@ File handling with CSV
 User interaction via terminal
 Practical expense management features
 
-```bash
+````bash
 
 ---
 
@@ -126,4 +126,4 @@ Practical expense management features
 
 
 
-````
+`````
