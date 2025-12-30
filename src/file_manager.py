@@ -9,7 +9,7 @@ def initialize_file():
         os.makedirs("data", exist_ok=True)
         with open(FILE_PATH, mode="w", newline="") as file:
             writer = csv.writer(file)
-            writer.writerow(["Date", "Category", "Amount", "Description"])
+            writer.writerow(["Date", "Category", "Amount", "Description, Time"])
 
 
 def add_expense(expense):
@@ -26,3 +26,9 @@ def read_expenses():
         for row in reader:
             expenses.append(row)
     return expenses
+
+def write_expenses(expenses):
+    with open(FILE_PATH, mode='w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(["Date", "Category", "Amount", "Description", "Time"])  # write header
+        writer.writerows(expenses)
